@@ -14,3 +14,21 @@ Currently there's no **Windows** support yet. There's several bugs that I need t
 
 ENet `http://enet.bespin.org`
 (Old) JavaENetWrapper `https://github.com/csm/java-enet-wrapper`
+
+## How to use
+
+Well, you can build this by ur own directly by running the sh files. After that copy and paste the .so file on any folder that you like and then add the jar file as ur dependency. 
+
+Sample code :
+
+
+```java
+package yourpackage
+
+import enetjava.ENetLib
+
+public static void main(String[] args) {
+    ENetLib.initialize("your_so_file_path"); // Must be the absolute path
+    ENetLib.enet_initialize();
+}
+```
