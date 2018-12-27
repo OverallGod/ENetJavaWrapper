@@ -32,7 +32,8 @@ public static void main(String[] args) {
 
 **No Changes**
 
-ENetJavaLib : Just run the build.sh inside the ENetJavaLib and you're good to go!.
+ENetJavaLib : Just run the build.sh inside the ENetJavaLib and you're good to go!
+
 ENetJava : Open in any IDE that you prefer, and build it normally
 
 **With Changes**
