@@ -30,4 +30,12 @@ public static void main(String[] args) {
 
 ## Building
 
+**No Changes**
+
 Just run the build.sh inside the ENetJavaLib and you're good to go!.
+
+**With Changes**
+
+If you're willing to make some changes you'll have to know the basic knowledge of JNI, Java, and C. If you're willing to modify the lib then open the **ENetJavaLib** on NetBeans linux (**DO NOT OPEN ON WINDOWS NETBEANS**) and make your changes, the project should be working out of the box. The netbeans is only used as the IDE not for compilling, if you want to build it. Run the `build.sh` file instead.
+
+For the java version, you can open it on NetBeans or IntelliJ and you can build it normally its just a normal java project, nothing else.
