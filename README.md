@@ -1,7 +1,7 @@
 # ENetJavaWrapper
 
 ENet is an UDP networking library that is written in C++. But with this program + api, you can run it on Java!.
-the code here are copied from an old repository (7 years ago), and it was never get updated. Its also have several issue
+the code here are copied from an old repository (7 years ago, but ofc with a lot of changes), and it was never get updated. Its also have several issue
 like the host will not run, no crc32 method, no compress method and so on.
 
 This is just a simple wrapper it doesn't contains all enet features, if you're willing to get the full one but in other languange you can try ENet.Managed (Written in C#). Its still good tho, I've tested it multiple times and its still working fine :D
