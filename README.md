@@ -17,11 +17,6 @@ ENet `http://enet.bespin.org`
 
 ## How to use
 
-Well, you can build this by ur own directly by running the sh files. After that copy and paste the .so file on any folder that you like and then add the jar file as ur dependency. 
-
-Sample code :
-
-
 ```java
 package yourpackage
 
@@ -32,3 +27,7 @@ public static void main(String[] args) {
     ENetLib.enet_initialize();
 }
 ```
+
+## Building
+
+Just run the build.sh inside the ENetJavaLib and you're good to go!.
