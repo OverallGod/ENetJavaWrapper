@@ -8,7 +8,7 @@ This is just a simple wrapper it doesn't contains all enet features, if you're w
 
 ## Information
 
-Currently there's no **Windows** support yet. There's several bugs that I need to fix in order to make this works on Windows. I don't know when will I publish it but I'm sure it will take a really long time.
+Currently there's no **Windows** support yet, you have to make your project on Linux OS. In order to make the host working properly. There's several bugs that I need to fix in order to make this works on Windows. I don't know when will I publish it but I'm sure it will take a really long time.
 
 ## Credit
 
