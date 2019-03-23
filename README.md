@@ -8,7 +8,8 @@ This is just a simple wrapper it doesn't contains all enet features, if you're w
 
 ## Information
 
-This should work on Windows and Linux as of 23/03/2019 update. Open a new issue if its not!
+This should work on Windows and Linux as of 23/03/2019 update. Open a new issue if its not!  
+if you're running on windows you can use **Git Bash** to run .sh command
 
 ## Credit
 
@@ -28,6 +29,9 @@ public static void main(String[] args) {
     ENetLib.enet_initialize();
 }
 ```
+
+If you didn't install java JDK on default location e.g `C:\Program Files\Java\jdk1.8.0_201\`, its recommended to  
+change the java path on `build.sh`
 
 ## Building
 
