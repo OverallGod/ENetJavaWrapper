@@ -45,5 +45,5 @@ ENetJava : For the java version, you can open it on NetBeans or IntelliJ and you
 
 ## Update log
 
-> [20/03/2019] Added maven support on **ENetJavaLib** &nbsp;
-> [23/03/2019] Added Windows support and massive code cleanup! &nbsp;
+> [20/03/2019] Added maven support on **ENetJavaLib**  
+> [23/03/2019] Added Windows support and massive code cleanup!  
