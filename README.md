@@ -41,8 +41,9 @@ ENetJava : Open in any IDE that you prefer, and build it normally
 
 ENetJavaLib : If you're willing to make some changes you'll have to know the basic knowledge of JNI, Java, and C. If you're willing to modify the lib then open the **ENetJavaLib** on NetBeans and make your changes, the project should be working out of the box, you can also use **Visual Studio Code** for windows. The code editor is only used as the editing tools not for compilling, if you want to compile it. Run the `build.sh` file instead.
 
-ENetJava : For the java version, you can open it on NetBeans or IntelliJ and you can build it normally its just a normal java project, nothing else.
+ENetJava : For the java version, you can open it on NetBeans or IntelliJ and you can build it normally its just a normal java project, nothing else. The project also support **Maven** so you can use `mvn clean install` to build the project
 
 ## Update log
 
+> [20/03/2019] Added maven support on **ENetJavaLib**
 > [23/03/2019] Added Windows support and massive code cleanup!
