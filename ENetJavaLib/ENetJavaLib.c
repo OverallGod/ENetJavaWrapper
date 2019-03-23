@@ -182,16 +182,16 @@ JNIEXPORT jobject JNICALL Java_enetjava_ENetLib_type
         jfieldID field = NULL;
         switch (event->type) {
             case ENET_EVENT_TYPE_CONNECT:
-                field = (*env)->GetStaticFieldID(env, enumClass, "Connect", "Lenetjava/objects/ENetEvent$Type;");
+                field = (*env)->GetStaticFieldID(env, enumClass, "CONNECT", "Lenetjava/objects/ENetEvent$Type;");
                 break;
             case ENET_EVENT_TYPE_DISCONNECT:
-                field = (*env)->GetStaticFieldID(env, enumClass, "Disconnect", "Lenetjava/objects/ENetEvent$Type;");
+                field = (*env)->GetStaticFieldID(env, enumClass, "DISCONNECT", "Lenetjava/objects/ENetEvent$Type;");
                 break;
             case ENET_EVENT_TYPE_NONE:
-                field = (*env)->GetStaticFieldID(env, enumClass, "None", "Lenetjava/objects/ENetEvent$Type;");
+                field = (*env)->GetStaticFieldID(env, enumClass, "NONE", "Lenetjava/objects/ENetEvent$Type;");
                 break;
             case ENET_EVENT_TYPE_RECEIVE:
-                field = (*env)->GetStaticFieldID(env, enumClass, "Receive", "Lenetjava/objects/ENetEvent$Type;");
+                field = (*env)->GetStaticFieldID(env, enumClass, "RECEIVE", "Lenetjava/objects/ENetEvent$Type;");
                 break;
         }
         
