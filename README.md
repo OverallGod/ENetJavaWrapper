@@ -8,7 +8,7 @@ This is just a simple wrapper it doesn't contains all enet features, if you're w
 
 ## Information
 
-Currently there's no **Windows** support yet, you have to make your project on Linux OS. In order to make the host working properly. There's several bugs that I need to fix in order to make this works on Windows. I don't know when will I publish it but I'm sure it will take a really long time.
+This should work on Windows and Linux as of 23/03/2019 update. Open a new issue if its not!
 
 ## Credit
 
@@ -24,7 +24,7 @@ package yourpackage
 import enetjava.ENetLib
 
 public static void main(String[] args) {
-    ENetLib.initialize("your_so_file_path"); // Must be the absolute path
+    ENetLib.initialize(libPath: "your_so_file_path", debug: true|false); // Must be the absolute path
     ENetLib.enet_initialize();
 }
 ```
@@ -33,12 +33,16 @@ public static void main(String[] args) {
 
 **No Changes**
 
-ENetJavaLib : Just run the build.sh inside the ENetJavaLib and you're good to go!
+ENetJavaLib : Just run the `build.sh` inside the **ENetJavaLib** and you're good to go!
 
 ENetJava : Open in any IDE that you prefer, and build it normally
 
 **With Changes**
 
-ENetJavaLib : If you're willing to make some changes you'll have to know the basic knowledge of JNI, Java, and C. If you're willing to modify the lib then open the **ENetJavaLib** on NetBeans linux (**DO NOT OPEN ON WINDOWS NETBEANS**) and make your changes, the project should be working out of the box. The netbeans is only used as the IDE not for compilling, if you want to build it. Run the `build.sh` file instead.
+ENetJavaLib : If you're willing to make some changes you'll have to know the basic knowledge of JNI, Java, and C. If you're willing to modify the lib then open the **ENetJavaLib** on NetBeans and make your changes, the project should be working out of the box, you can also use **Visual Studio Code** for windows. The code editor is only used as the editing tools not for compilling, if you want to compile it. Run the `build.sh` file instead.
 
 ENetJava : For the java version, you can open it on NetBeans or IntelliJ and you can build it normally its just a normal java project, nothing else.
+
+## Update log
+
+> [23/03/2019] Added Windows support and massive code cleanup!
