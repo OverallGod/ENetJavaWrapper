@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ENetJava:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/enetjava/objects/ENetHost.java" line="28" mnemonic="1" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0007ebac-e03f-46ae-9ef5-a41ea75f443b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ENetJava_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/ENetLib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/objects/ENetEvent$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/objects/ENetEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/objects/ENetHost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/objects/ENetPacket$Flag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/objects/ENetPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/objects/ENetPeer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/objects/EnetException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/objects/MutableInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/test/ENetTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/enetjava/test/ENetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enetjava/ENetLib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enetjava/objects/ENetEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enetjava/objects/ENetHost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enetjava/objects/ENetPacket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enetjava/objects/ENetPeer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enetjava/objects/EnetException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enetjava/objects/MutableInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enetjava/test/ENetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/ENetJavaLib.c" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/ENetJavaLib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/ENetJavaLib.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/ENetJavaLib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/ENetJavaLib.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/ENetJavaLib.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/ENetJavaLib.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/callbacks.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/callbacks.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/compress.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/compress.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/enet/enet.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/enet/enet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/enet/unix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/enet_wrap.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/host.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/host.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/list.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/list.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/packet.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/packet.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/peer.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/peer.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/protocol.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/protocol.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/unix.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/unix.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ENetJavaLib/win32.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ENetJavaLib/win32.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generate-Header.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Generate-Header.sh" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/enetjava/objects/ENetPeer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+              <folding>
+                <element signature="e#1645#1646#0" expanded="true" />
+                <element signature="e#1686#1687#0" expanded="true" />
+                <element signature="e#1788#1789#0" expanded="true" />
+                <element signature="e#1845#1846#0" expanded="true" />
+                <element signature="e#1893#1894#0" expanded="true" />
+                <element signature="e#1946#1947#0" expanded="true" />
+                <element signature="e#1999#2000#0" expanded="true" />
+                <element signature="e#2058#2059#0" expanded="true" />
+                <element signature="e#2365#2366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/enetjava/objects/MutableInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/enetjava/ENetLib.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="143" column="57" selection-start-line="143" selection-start-column="57" selection-end-line="143" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/enetjava/objects/ENetHost.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/enetjava/objects/ENetEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enetjava/objects/EnetException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enetjava/objects/ENetHost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enetjava/objects/ENetPacket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enetjava/objects/ENetPeer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enetjava/objects/MutableInteger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enetjava/ENetLib.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ENetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENetJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ENetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENetJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ENetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENetJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ENetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENetJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ENetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENetJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enetjava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ENetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENetJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enetjava" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553350078793" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/GrowtopiaBot/lib" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0007ebac-e03f-46ae-9ef5-a41ea75f443b" name="Default Changelist" comment="" />
+      <created>1553250413298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553250413298</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enetjava/objects/ENetException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enetjava/objects/ENetEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enetjava/objects/ENetHost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+          <folding>
+            <element signature="method#connect#0;class#ENetHost#0" />
+            <element signature="method#checkEvents#0;class#ENetHost#0" />
+            <element signature="method#setUseCrc32#0;class#ENetHost#0" />
+            <element signature="method#setCompressWithRangeCoder#0;class#ENetHost#0" />
+            <element signature="method#finalize#0;class#ENetHost#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enetjava/objects/ENetPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="method#ENetPacket#0;class#ENetPacket#0" />
+            <element signature="method#ENetPacket#1;class#ENetPacket#0" />
+            <element signature="method#ENetPacket#2;class#ENetPacket#0" />
+            <element signature="method#ENetPacket#3;class#ENetPacket#0" />
+            <element signature="class#Flag#0;class#ENetPacket#0" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2114#2115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enetjava/objects/ENetPeer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+          <folding>
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2365#2366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enetjava/objects/MutableInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enetjava/ENetLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="143" column="57" selection-start-line="143" selection-start-column="57" selection-end-line="143" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ENetJava:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_181</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ENetJava</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

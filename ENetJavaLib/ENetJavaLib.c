@@ -21,7 +21,17 @@ JNIEXPORT jobject JNICALL Java_enetjava_ENetLib_create_1host
     addr.port = (enet_uint32) port;
     ENetHost * host = enet_host_create(&addr, peerCount, channelLimit, (enet_uint32) incoming, (enet_uint32) outgoing);
     if (host == NULL) {
-        (*env)->ThrowNew(env, (*env)->FindClass(env, "enetjava/objects/EnetException"), "Failed to create ENetHost!");
+        (*env)->ThrowNew(env, (*env)->FindClass(env, "enetjava/objects/ENetException"), "Failed to create ENetHost!");
+        return NULL;
+    }
+    return (*env)->NewDirectByteBuffer(env, host, sizeof(ENetHost));
+}
+
+JNIEXPORT jobject JNICALL Java_enetjava_ENetLib_create_1null_1host
+  (JNIEnv * env, jclass cls, jint peerCount, jint channelLimit, jint incoming, jint outgoing) {
+    ENetHost * host = enet_host_create(NULL, peerCount, channelLimit, (enet_uint32) incoming, (enet_uint32) outgoing);
+    if (host == NULL) {
+      (*env)->ThrowNew(env, (*env)->FindClass(env, "enetjava/objects/ENetException"), "Failed to create ENetHost!");
         return NULL;
     }
     return (*env)->NewDirectByteBuffer(env, host, sizeof(ENetHost));
@@ -34,7 +44,7 @@ JNIEXPORT jobject JNICALL Java_enetjava_ENetLib_connect
     if (host != NULL) {
         ENetAddress addr;
         const char * nativeString = (*env)->GetStringUTFChars(env, add, 0);
-        enet_address_set_host(&addr, add);
+        enet_address_set_host(&addr, nativeString);
         addr.port = (enet_uint32) port;
         
         ENetPeer * peer = enet_host_connect(host, &addr, channelCount, data);

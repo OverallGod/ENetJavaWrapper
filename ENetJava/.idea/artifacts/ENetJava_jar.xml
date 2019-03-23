@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ENetJava:jar">
+    <output-path>$USER_HOME$/IdeaProjects/GrowtopiaBot/lib</output-path>
+    <root id="archive" name="ENetJava.jar">
+      <element id="module-output" name="ENetJava" />
+    </root>
+  </artifact>
+</component>

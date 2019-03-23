@@ -13,7 +13,7 @@ extern "C"
 #include <stdlib.h>
 
 #ifdef _WIN32
-#include "enet/win32.h"
+#include "win32.h"
 #else
 #include "unix.h"
 #endif

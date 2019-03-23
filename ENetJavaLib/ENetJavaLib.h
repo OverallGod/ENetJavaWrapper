@@ -26,15 +26,23 @@ JNIEXPORT void JNICALL Java_enetjava_ENetLib_enet_1deinitialize
 /*
  * Class:     enetjava_ENetLib
  * Method:    create_host
- * Signature: (IIIIII)Ljava/nio/ByteBuffer;
+ * Signature: (Ljava/lang/String;IIIII)Ljava/nio/ByteBuffer;
  */
 JNIEXPORT jobject JNICALL Java_enetjava_ENetLib_create_1host
   (JNIEnv *, jclass, jstring, jint, jint, jint, jint, jint);
 
 /*
  * Class:     enetjava_ENetLib
+ * Method:    create_null_host
+ * Signature: (IIII)Ljava/nio/ByteBuffer;
+ */
+JNIEXPORT jobject JNICALL Java_enetjava_ENetLib_create_1null_1host
+  (JNIEnv *, jclass, jint, jint, jint, jint);
+
+/*
+ * Class:     enetjava_ENetLib
  * Method:    connect
- * Signature: (Ljava/nio/ByteBuffer;IIII)Ljava/nio/ByteBuffer;
+ * Signature: (Ljava/nio/ByteBuffer;Ljava/lang/String;III)Ljava/nio/ByteBuffer;
  */
 JNIEXPORT jobject JNICALL Java_enetjava_ENetLib_connect
   (JNIEnv *, jclass, jobject, jstring, jint, jint, jint);
